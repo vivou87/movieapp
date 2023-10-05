@@ -1,0 +1,52 @@
+.movies-list {
+  border: 2px black solid;
+  min-height: 90vh;
+  padding: 50px;
+  background-color: black;
+}
+* {
+  color: white;
+}
+.form-label {
+  color: black;
+}
+.movie-item {
+  width: 300px;
+  border: 2px white solid;
+  border-radius: 15px;
+}
+.image {
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+h1 {
+  font-size: 1.5rem !important;
+}
+h2 {
+  font-size: 1.1rem !important;
+}
+h3 {
+  font-size: 0.9rem !important;
+}
+p {
+  font-size: 0.75rem !important;
+}
+.movie-item-body {
+  padding: 15px;
+}
+.movies {
+  min-height: 1300px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+button {
+  all: unset;
+  background-color: black;
+  padding: 5px 20px;
+  margin-left: 50p !important;
+}
