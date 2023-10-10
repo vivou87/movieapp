@@ -1,8 +1,8 @@
 .movies-list {
-  border: 2px black solid;
+  
   min-height: 90vh;
   padding: 50px;
-  background-color: black;
+  background-color: rgb(200, 182, 182);
 }
 * {
   color: white;
@@ -46,7 +46,7 @@ p {
 }
 button {
   all: unset;
-  background-color: black;
+  background-color: rgb(171, 132, 132);
   padding: 5px 20px;
   margin-left: 50p !important;
 }

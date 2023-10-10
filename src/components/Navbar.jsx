@@ -12,7 +12,7 @@ function NavBar(props) {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="#">Moviz Planet</Navbar.Brand>
+        <Navbar.Brand href="#">Disney Movies</Navbar.Brand>
         <ReactStars
           count={10}
           onChange={(newRating) => {
