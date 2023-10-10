@@ -1,4 +1,7 @@
-.movies-list {
+.movies-list,
+.home,
+.login,
+.singleMovie {
   border: 2px black solid;
   min-height: 90vh;
   padding: 50px;
@@ -36,6 +39,10 @@ p {
 }
 .movie-item-body {
   padding: 15px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .movies {
   min-height: 1300px;
@@ -49,4 +56,10 @@ button {
   background-color: black;
   padding: 5px 20px;
   margin-left: 50p !important;
+}
+.navActive {
+  color: red;
+}
+.navDisabled {
+  color: black;
 }

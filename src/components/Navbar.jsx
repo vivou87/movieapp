@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Button, Container, Form, Nav, Navbar, Modal } from "react-bootstrap";
 import ReactStars from "react-stars";
+import { NavLink } from "react-router-dom";
+
 // import { PiArrowClockwiseBold } from "react-icons/pi";
 import "./style.css";
 function NavBar(props) {
@@ -13,6 +15,40 @@ function NavBar(props) {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
         <Navbar.Brand href="#">Moviz Planet</Navbar.Brand>
+        <Nav className="me-auto">
+          <Nav.Link>
+            {" "}
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "navActive" : "navDisabled"
+              }
+              to="/"
+            >
+              Home
+            </NavLink>
+          </Nav.Link>
+          <Nav.Link>
+            {" "}
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "navActive" : "navDisabled"
+              }
+              to="/movies"
+            >
+              Movies
+            </NavLink>
+          </Nav.Link>
+          <Nav.Link>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "navActive" : "navDisabled"
+              }
+              to="/login"
+            >
+              Login
+            </NavLink>
+          </Nav.Link>
+        </Nav>
         <ReactStars
           count={10}
           onChange={(newRating) => {
