@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.css";
 import ReactStars from "react-stars";
+import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 
 function MovieItem(props) {
   return (
@@ -24,6 +26,9 @@ function MovieItem(props) {
           color2={"#ffd700"}
         />
         <p>{props.desc}</p>
+        <Link to={`/movies/${props.id}`} style={{ all: "unset" }}>
+          <Button variant="warning">See details</Button>{" "}
+        </Link>
       </div>
     </div>
   );

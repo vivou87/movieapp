@@ -1,5 +1,5 @@
 .movies-list {
-  
+  border: 2px black solid;
   min-height: 90vh;
   padding: 50px;
   background-color: rgb(200, 182, 182);
@@ -36,6 +36,10 @@ p {
 }
 .movie-item-body {
   padding: 15px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .movies {
   min-height: 1300px;
@@ -49,4 +53,10 @@ button {
   background-color: rgb(171, 132, 132);
   padding: 5px 20px;
   margin-left: 50p !important;
+}
+.navActive {
+  color: red;
+}
+.navDisabled {
+  color: black;
 }

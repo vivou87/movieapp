@@ -1,64 +1,71 @@
 export const data = [
   {
+    id: "fghjfjdf4545",
     imgUrl:
-      "https://valleycultural.org/wp-content/uploads/2022/02/encanto-1-e1644277475636.jpeg",
-    title: "Encanto",
-    cast: "Stephanie Beatriz, wilmer valderrama, jessica darrow",
-    rating: 5,
-    desc: `Encanto est un endroit magique perdu dans une montagne isolée de Colombie. Parmi les chanceux qui possèdent une maison dans ce lieu féerique, les Madrigal, dont chaque membre peut se vanter de posséder un pouvoir extraordinaire et particulier.`,
-  },
-  {
-    imgUrl: "https://m.media-amazon.com/images/I/71j30jbtxaL.jpg",
-    title: "Alladin",
-    cast: "Mena Massoud , Will Smith, Nasim Bedrad ",
+      "https://filmsvibez.com/cdn/shop/products/Kung-Fu-Panda-Poster-Films-Vibez-1630122362_520x.jpg?v=1630122363",
+    title: "KUNG FU PANDA",
+    cast: "Jack Black, Jackie Chan, Angelina Jolie",
     rating: 7,
-    desc: "Aladdin is portrayed as quick-witted, and ultimately a caring person. Like most Disney male protagonists, he is a heroic young man who seeks to win the affection of many other characters, which demonstrates his insecurity.",
+    desc: `About the movie: To everyone's surprise, including his own, Po, an overweight, clumsy panda, is chosen as protector of the Valley of Peace. His suitability will soon be tested as the valley's arch-enemy is on his way.`,
   },
   {
+    imgUrl: "https://m.media-amazon.com/images/I/51unGrb-AAL._AC_.jpg",
+    title: "The Matrix",
+    cast: "Keanu Reeves , Laurence Fishburne, Carrie-Anne Moss ",
+    rating: 8,
+    desc: `Thomas Anderson, a computer programmer, is led to fight an underground war against powerful computers who have constructed his entire reality with a system called the Matrix.`,
+  },
+  {
+    id: "121fqs14zeeSD",
     imgUrl:
-      "https://i.pinimg.com/736x/ee/e5/74/eee574d067bc429db22d2746291bf1ac.jpg",
-    title: "Lion king",
-    cast: "Jeremy Irons ,Matthew Brodrick, Rowan Atkinson ",
-    rating: 9,
-    desc: `Disney's The Lion King is about a young lion prince named Simba who, after losing his father in a staged accident which he feels he caused, must face his fear of responsibility and take his rightful place on the throne.`,
-  },
-  {
-    imgUrl:
-      "https://www.mauvais-genres.com/39258-large_default/la-petite-sirene-affiche-de-film-prev-120x160-cm-1989-jodi-benson-walt-disney.jpg",
-    title: "la petit sirene",
-    cast: "Daveed  diggs, Halle beilly ,javier barem ",
-    rating: 4,
-    desc: `eune sirène de 15 ans, elle se distingue de ses cinq sœurs par sa grande beauté, sa merveilleuse voix et son caractère singulier : « C'était une enfant bizarre, silencieuse et réfléchie. » De nature très curieuse, elle est attirée par le monde des hommes qui la fascine.`,
-  },
-  {
-    imgUrl: "https://m.media-amazon.com/images/I/71zBUehzlgL.jpg",
-    title: "Zotopie",
-    cast: "jennifer godwin , jason bateman, Jenny slate,Shakira",
+      "https://www.sonypictures.co.uk/sites/unitedkingdom/files/2023-07/SISU%20KEY%20ART_0.JPG",
+    title: "SISU",
+    cast: "Jorma Tommila ,Aksel Hennie, Jack Doolan ",
     rating: 6,
-    desc: `une cité extraordinaire, où tous les animaux se côtoient, qu'ils soient proies ou prédateurs. Lorsque la jeune lapine, Judy Hopps, fait son entrée dans la police de la ville, elle peine à trouver sa place. Bien décidée à faire ses preuves, Judy s'attaque à une enquête difficile.`,
+    desc: `During the last days of World War II, a solitary prospector crosses paths with Nazis on a scorched-earth retreat in northern Finland. When the soldiers decide to steal his gold, they quickly discover they just tangled with no ordinary miner.`,
   },
   {
+    id: "wDFDfsfs445",
+    imgUrl:
+      "https://www.movieposters.com/cdn/shop/products/KILLBILL.VOL.1.PW_500x.jpg?v=1574966219",
+    title: "Kill Bill",
+    cast: "Uma Thurman , Lucy Liu , Vivica A. Fox",
+    rating: 8.2,
+    desc: `It stars Uma Thurman as the Bride, a former assassin who swears revenge on a group of assassins (Lucy Liu, Michael Madsen, Daryl Hannah, and Vivica A. Fox) and their leader, Bill (David Carradine), who tried to kill her and her unborn child. Her journey takes her to Tokyo, where she battles the yakuza.`,
+  },
+  {
+    imgUrl:
+      "https://www.movieposters.com/cdn/shop/products/974b303121fc6607fbe2b21ec7bb2391_9f43f901-611c-4dd4-b6ad-3a5c803f878f_500x.jpg?v=1573584651",
+    title: "Training Day",
+    cast: "Denzel Washington , Ethan Hawke, Antoine Fuqua",
+    rating: 9,
+    desc: `A newly recruited police officer spends his first day as a narcotics officer with a detective who is more than what he appears to be.`,
+  },
+  {
+    id: "054154151d1qq",
     imgUrl:
       "https://i.pinimg.com/736x/58/79/52/58795241b586af684666a40d981ab0b7.jpg",
     title: "Pocahontos",
     cast: "Mel Gibson , Irene Bedard, Christian Bale",
     rating: 7,
-    desc: `Fille du chef de la grande tribu des Powhatans, Wahunsunacock, Pocahontas est née vers 1595 sous le nom de Matoaka, qui signifie « petite plume de neige ». Son surnom de Pocahontas lui vient de son caractère espiègle, le terme pouvant se traduire par « petite impudique ».`,
+    desc: `During the Civil War, two men, Blondie and Tuco, form an uncomfortable alliance while looking for treasure. They must also outwit Angel Eyes, an outlaw who wants to plunder the riches for himself.`,
   },
   {
+    id: "ckjfkf7878KSDFK",
     imgUrl:
-      "https://www.cdiscount.com/pdt2/8/8/2/1/700x700/auc2009958063882/rw/affiche-la-belle-et-la-bete-disney.jpg",
-    title: "la belle et la bète",
-    cast: "Vincent Cassel ,Lea Seydou, Myriam Charleins",
-    rating: 6,
-    desc: `La Belle et la Bête raconte une histoire de rédemption par l'amour sur fond de rivalités entre fées et propose des réflexions très fines sur l'amour, les liens familiaux et toutes les formes de pouvoir. L'ouvrage rencontre un vif succès.`,
-  },
-  {
-    imgUrl:
-      "https://lumiere-a.akamaihd.net/v1/images/p_tarzan_19875_de73a443.jpeg?region=0%2C0%2C540%2C810",
-    title: "Tarzan",
-    cast: "Margot robbie ,Samuel Jackson, Rory Seyper",
+      "https://m.media-amazon.com/images/I/71lFzbvRmfL._AC_UF894,1000_QL80_.jpg",
+    title: "The Hangover",
+    cast: "Zach Galifianakis ,Bradley Cooper, Ed Helms",
     rating: 8,
-    desc: `Tarzan est un personnage de fiction représentant l'enfant sauvage archétypal élevé par les Grands Singes dans la jungle africaine. Ce personnage a été créé ....`,
+    desc: `The Hangover is a series of American comedy films created by Jon Lucas and Scott Moore, and directed by Todd Phillips. All three films follow the misadventures of a quartet of friends who go on their road trip to attend a bachelor party`,
+  },
+  {
+    id: "977d54DDDDQ",
+    imgUrl:
+      "https://m.media-amazon.com/images/M/MV5BMTY0NjI3MzM2Nl5BMl5BanBnXkFtZTcwNDgxNjA5Nw@@._V1_.jpg",
+    title: "The Campaign",
+    cast: "Will Ferrell ,Zach Galifianakis, Jason Sudeikis",
+    rating: 7,
+    desc: `Cam Brady and Marty Huggins are political rivals who are running for the same seat and will stop at nothing to outdo each other during their campaigns.`,
   },
 ];

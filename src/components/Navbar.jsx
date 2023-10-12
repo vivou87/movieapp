@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Button, Container, Form, Nav, Navbar, Modal } from "react-bootstrap";
 import ReactStars from "react-stars";
+import { NavLink } from "react-router-dom";
+
 // import { PiArrowClockwiseBold } from "react-icons/pi";
 import "./style.css";
 function NavBar(props) {
@@ -12,7 +14,7 @@ function NavBar(props) {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="#">Disney Movies</Navbar.Brand>
+        <Navbar.Brand href="#">Moviz Planet</Navbar.Brand>
         <ReactStars
           count={10}
           onChange={(newRating) => {
