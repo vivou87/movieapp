@@ -1,8 +1,11 @@
-.movies-list {
+.movies-list,
+.Home,
+.Login,
+.Single {
   border: 2px black solid;
   min-height: 90vh;
   padding: 50px;
-  background-color: rgb(200, 182, 182);
+  background-color: rgb(149, 163, 100);
 }
 * {
   color: white;
@@ -55,8 +58,8 @@ button {
   margin-left: 50p !important;
 }
 .navActive {
-  color: red;
+  color: rgb(4, 255, 0);
 }
 .navDisabled {
-  color: black;
+  color: rgb(236, 7, 7);
 }

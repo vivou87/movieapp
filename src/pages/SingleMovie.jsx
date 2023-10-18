@@ -11,7 +11,7 @@ function SingleMovie() {
   let movie = data.find((elt) => elt.id === id);
   console.log(movie);
   return (
-    <div>
+    <div className="Single">
       <Navbar bg="light" data-bs-theme="light">
         <Container>
           <Navbar.Brand>Moviz Planet</Navbar.Brand>

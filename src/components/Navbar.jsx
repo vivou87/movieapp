@@ -15,6 +15,47 @@ function NavBar(props) {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
         <Navbar.Brand href="#">Moviz Planet</Navbar.Brand>
+        <Nav.Link>
+          <Navbar bg="light" data-bs-theme="light">
+            <Container>
+              <Navbar.Brand>Moviz Planet</Navbar.Brand>
+              <Nav className="me-auto">
+                <Nav.Link>
+                  {" "}
+                  <NavLink
+                    className={({ isActive }) =>
+                      isActive ? "navActive" : "navDisabled"
+                    }
+                    to="/"
+                  >
+                    Home
+                  </NavLink>
+                </Nav.Link>
+                <Nav.Link>
+                  {" "}
+                  <NavLink
+                    className={({ isActive }) =>
+                      isActive ? "navActive" : "navDisabled"
+                    }
+                    to="/movies"
+                  >
+                    Movies
+                  </NavLink>
+                </Nav.Link>
+                <Nav.Link>
+                  <NavLink
+                    className={({ isActive }) =>
+                      isActive ? "navActive" : "navDisabled"
+                    }
+                    to="/login"
+                  >
+                    Login
+                  </NavLink>
+                </Nav.Link>
+              </Nav>
+            </Container>
+          </Navbar>
+        </Nav.Link>
         <ReactStars
           count={10}
           onChange={(newRating) => {

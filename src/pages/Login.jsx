@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container";
 import { NavLink } from "react-router-dom";
 function Login() {
   return (
-    <div>
+    <div className="Login">
       <Navbar bg="light" data-bs-theme="light">
         <Container>
           <Navbar.Brand href="#home">Moviz Planet</Navbar.Brand>
